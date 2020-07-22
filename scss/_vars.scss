@@ -1,0 +1,18 @@
+$main_color:#727272;
+$green_color:#cde018;
+$max_width:1720px;
+$auto_width:1400px;
+
+
+@mixin verticalCenter($h){
+    display: block;
+    height: $h;
+    line-height: $h;
+}
+
+@mixin middle(){
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
